@@ -1,0 +1,68 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://i.ytimg.com/vi/mYrKAMLbjYA/maxresdefault.jpg); 
+
+    background-size: cover; /* Ajusta a imagem para cobrir todo o container */
+    background-position: center; /* Centraliza a imagem horizontalmente e verticalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #666666;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    position: relative;
+}
+
+h1 {
+position: absolute;
+top: 5%;
+left: 50%;
+transform: translateX(-50%);
+font-family: "Bebas Neue", sans-serif;
+font-style: normal;
+font-size: 236%;
+
+
+}
+    
+
+
+.credencial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #005003;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #def701;
+    color: black;
+}
+
+.credencial button {
+    padding: 10px;
+}
+

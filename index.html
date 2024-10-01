@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Login e senha</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">    
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="https://w7.pngwing.com/pngs/508/118/png-transparent-encapsulated-postscript-password-information-password-rectangle-password-security-hacker-thumbnail.png" type="image/x-icon">
+
+</head>
+<body>
+    <h1>Crie sua Identidade Secreta!</h1>
+    <div class="container">
+        <strong><p>Clique no botão GERAR para criar um login e senha aleatórios:</p></strong>
+        
+
+        <div class="credencial">
+            <input type="text" id="login" readonly placeholder="Gerar Email">
+            <button onclick="copiar(login)">Copiar</button>
+        </div>
+
+        <div class="credencial">
+            <input type="text" id="senha" readonly placeholder="Gerar Senha">
+            <button onclick="copiar(senha)">Copiar</button>
+        </div>
+
+        <button onclick="gerarCredenciais()">Gerar Identidade</button>
+    </div>
+
+</body>
+</html>
