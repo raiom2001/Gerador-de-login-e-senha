@@ -1,2 +1,9 @@
 # Gerador-de-login-e-senha
-Código em HTML, CSS e JavaScript criado para gerar login e senha para games ou algum outro tipo de conta.
+Site que gera login e senha aleatóriamente. Pode ser usado para criar contas em jogos e dentre outras coisas.
+
+
+# link do projeto rodando: 
+https://gerador-de-login-e-senha-three.vercel.app/
+
+# Ferramentas usadas:
+HTML, CSS e Javascript
